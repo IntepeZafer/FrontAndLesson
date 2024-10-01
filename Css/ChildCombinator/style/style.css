@@ -1,0 +1,7 @@
+ul li{
+    list-style: circle;
+    background-color: red;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: #fff;
+}

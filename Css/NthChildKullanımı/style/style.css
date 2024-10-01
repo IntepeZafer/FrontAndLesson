@@ -1,0 +1,9 @@
+.hamburger .bar{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: blue;
+}
+.hamburger .bar:nth-child(1){
+    border-radius: 1rem;
+}
