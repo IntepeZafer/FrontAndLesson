@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.navbar{
+    background-color: burlywood;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.register{
+    margin-left: auto;
+}
+.navlink:hover{
+    border: 1px solid black;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    transition: all 1s ease-in;
+}
