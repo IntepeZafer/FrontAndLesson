@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 50%;
+    animation: 1s ease-in-out 2s infinite SpinnerAnimation;
+}
+@keyframes SpinnerAnimation{
+    0%{
+        transform: rotate(0deg);
+        border-top-color: blue;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

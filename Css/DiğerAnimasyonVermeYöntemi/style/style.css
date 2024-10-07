@@ -1,0 +1,32 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: .0938rem;
+    animation-name: BackgroundChange;
+    animation-duration: 3s;
+    
+}
+@keyframes BackgroundChange{
+    0%{
+    background-color: chocolate;
+    border-radius: 1rem;
+    }
+    50%{
+        transform: rotate(360deg);
+        background-color: cornflowerblue;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    100%{
+        background-color: aqua;
+        border-radius: 0;
+    }
+}

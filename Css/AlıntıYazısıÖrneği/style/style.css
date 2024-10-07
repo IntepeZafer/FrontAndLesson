@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+}
+blockquote{
+    font-size: 20px;
+    position: relative;
+}
+blockquote::before{
+    content: open-quote;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+blockquote::after{
+    content: close-quote;
+    position: absolute;
+    bottom: -20px;
+    right: 430px;
+}
