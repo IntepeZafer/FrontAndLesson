@@ -14,8 +14,7 @@ body{
     width: 700px;
     height: 700px;
     display: grid;
-    grid-template: repeat(2 , 1fr) / repeat(4 , 1fr);
-    row-gap: 1rem;
+    grid-template-areas: "b b a" "b b c" "b b c";
 }
 .box{
     color: #fff;
@@ -24,9 +23,12 @@ body{
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.box1{
-    grid-area: 1 / 1 / 2 / 3;
+.box1{ 
+    grid-area: a;
 }
 .box2{
-    grid-area: 2 / 3 / 3 / 5;
+    grid-area: b;
+}
+.box3{
+    grid-area: c;
 }
