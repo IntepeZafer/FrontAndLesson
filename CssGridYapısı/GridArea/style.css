@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(224, 136, 20);
+}
+.container{
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template: repeat(2 , 1fr) / repeat(4 , 1fr);
+    row-gap: 1rem;
+}
+.box{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box1{
+    grid-area: 1 / 1 / 2 / 3;
+}
+.box2{
+    grid-area: 2 / 3 / 3 / 5;
+}
